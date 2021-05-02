@@ -40,16 +40,16 @@ public class Customer
 
 public class SilverCustomer : Customer
 {
-public override double GetDiscount(double totalPrice){
-return (totalPrice \* 10)/100;
-}
+  public override double GetDiscount(double totalPrice){
+    return (totalPrice \* 10)/100;
+  }
 }
 
 public class GoldenCustomer : Customer
 {
-public override double GetDiscount(double totalPrice){
-return (totalPrice \* 15)/100;
-}
+  public override double GetDiscount(double totalPrice){
+    return (totalPrice \* 15)/100;
+  }
 }
 
 ```
